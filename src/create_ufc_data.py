@@ -20,3 +20,4 @@ print("Starting Preprocessing \n")
 preprocessor = Preprocessor()
 preprocessor.process_raw_data()  # Preprocesses the raw data and saves the csv files in data folder
 print(f'elapsed seconds = {(time.time() - time_start):.3f}')
+
